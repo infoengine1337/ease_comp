@@ -7,6 +7,7 @@ easeに対応させたいスクリプトのrequireをease_compに変更します
 require("easing")とか -> require("ease_comp")
 ```
 
+同ディレクトリ又はAviutlの存在するディレクトリ以下にease.dll, ease_common.luaが必要です  
 UndoFish版イージングの範囲内の値は自動的にマイナスになるため、ease特有の「負の値を入力する」処理は必要ないです  
 死ぬほど手抜きです。autoメソッドしか対応してません  
 動かないスクリプトは普通にあります。改良プルリク歓迎  

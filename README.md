@@ -21,9 +21,9 @@ UndoFish版イージングの範囲内の値は自動的にマイナスになる
  ```
  に変更
 
-Ta-Normal
+Ta-Normal (TA-Trackに同梱 https://twitter.com/respectrum93/status/921674998099492866)
 
-当スクリプト85行目よりeasing関数を
+TA-Track85行目よりeasing関数を
 ```
 local function easing(x) return x*x*(3-2*x) end
 if (easein>0 or easeout>0) then
@@ -35,9 +35,9 @@ end
 ```
 に変更
 
-Ta-Arrange
+Ta-Arrange (TA-Trackに同梱 https://twitter.com/respectrum93/status/921674998099492866)
 
-当スクリプト220行目よりeasing関数を
+TA-Track220行目よりeasing関数を
 ```
 local function easing(x) return x*x*(3-2*x) end
 if (ease) and (ease>0) then
